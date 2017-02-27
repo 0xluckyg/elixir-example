@@ -1,6 +1,6 @@
 #Elixir notes
 
-docs:
+Docs:
 
 	[
 		{:ex_doc, "~> 0.12"}
@@ -15,7 +15,7 @@ Running Elixir code on terminal:
 
 Syntax:
 
-	for loop
+	For loop
 		for value <- values do
 			“value is #{value}”
 		end
@@ -23,7 +23,7 @@ Syntax:
 	Pattern matching
 		[var1, var2] = [1, 2]
 	
-	case
+	Case
 		case status do
 			:case1 -> 
 			:case2 ->
@@ -45,7 +45,7 @@ Syntax:
 		MIX_ENV=test mix deps.compile
 
 
-	maps
+	Maps
 		color = %{primary: “red”, secondary: “blue”}
 		color.primary
 		Map.put(colors, :primary, “yellow”)
